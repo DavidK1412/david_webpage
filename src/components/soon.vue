@@ -76,6 +76,12 @@ export default {
         padding-right: 5px;
     }
 
+    .cta:hover{
+        transition: 1s;
+        background: #000000;
+        color: #FFFFFF;
+    }
+
     .img-container{
         flex-basis: 50%;
         position: relative;
