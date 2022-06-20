@@ -3,7 +3,10 @@
             <div class="container-text">
                 <h1 class="title">Página en construcción</h1>
                 <h2 class="subtitle">Pronto estará disponible!</h2>
-                <a href="https://github.com/DavidK1412" class="cta"><i class="fab fa-github"></i>GitHub</a>
+                <div class="items">
+                  <a href="https://github.com/DavidK1412" class="cta"><i class="fab fa-github"></i>GitHub</a>
+                  <a href="https://www.linkedin.com/in/davidcasallasb/" class="cta-linkedin"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                </div>
             </div>
             <div class="img-container">
                 <img src="../assets/img1.svg" alt="" class="img">
@@ -20,7 +23,7 @@ export default {
 
 <style scoped>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
-    
+
     .container{
         position: relative;
         height: 600px;
@@ -68,7 +71,7 @@ export default {
         font-size: 16px;
         font-weight: bold;
         color: #000000;
-        /**linear-gradient(90deg, #FFFFFF 80.2%, #000000 80.21%) */
+        margin-right: 1.3rem;
     }
 
     .cta i{
@@ -80,6 +83,36 @@ export default {
         transition: 1s;
         background: #000000;
         color: #FFFFFF;
+    }
+
+    .cta-linkedin{
+      display: inline-block;
+      width: 150px;
+      padding: 15px 0;
+      text-align: center;
+      background: #FFFFFF;
+      border-radius: 4px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000000;
+      margin-right: 1.3rem;
+    }
+
+    .cta-linkedin i{
+      font-size: 20px;
+      padding-right: 5px;
+    }
+
+    .cta-linkedin:hover{
+      transition: 1s;
+      background: #000000;
+      color: #FFFFFF;
+    }
+    .cta-linkedin:hover i{
+      transition: 1s;
+      color: rgb(0, 119, 181);
     }
 
     .img-container{
